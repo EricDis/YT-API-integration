@@ -1,0 +1,63 @@
+.logo {
+    width: 200px;
+    padding: 12 px;
+    position: center;
+}
+
+h1 {
+    font-size: 18px;
+    color: #4b4b4b;
+}
+
+#search-button {
+    border-radius: 8px;
+    background-color: #4b4b4b;
+    color: white;
+    font-weight: bold;
+}
+
+#query {
+    color: gray;
+    font-style: oblique;
+}
+
+section{
+    top: 300px;
+}
+
+header, section {
+    position: fixed;
+    text-align: center;
+    width: 540px;
+}
+
+main {
+    top:500px;
+    padding: 350px 20 px 10px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    &:hover{
+        border: 2px solid #ff4444;
+     }
+}
+
+.thumb {
+    height: 70px;
+    border-radius: 8px;
+}
+
+.details {
+    padding: 8px 25px;
+}
+
+p{
+    color: grey;
+    font-size: 10px;
+}
