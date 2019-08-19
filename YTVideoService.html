@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>YTVideoService</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="YouTube Videos"/>
+	
+	<!-- css -->
+	<link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+  <div id="top">
+    <img src="logo.png" alt="" class="logo">
+	<h1>YouTube Search:</h1>
+  </div>
+  <!-- container for searchfield and buttons -->
+    <div id="buttons">
+		<label> <input id="query" value='enter searchquery...' type="text"/>
+		<button id="search-button">Search</button></label>
+	</div>
+  <!-- container for search results -->
+    <div id="search-container">
+        <section id="video">
+            <!-- mainvideo goes here -->
+            <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/V5jtD_2-U2k"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+        </section>
+        <!-- displays results as list -->
+        <main>
+
+        </main>
+
+    </div>
+	
+	<!-- js -->
+    <script src="jquery-3.4.0.min.js"></script>
+    <script src="YTVideoService_initapi.js"></script>
+    <script src="YTVideoService_search.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+  </body>
+</html>
