@@ -11,7 +11,7 @@ document.getElementById("search-button").addEventListener("click", search)
 function search() {
   var q = $('#query').val();
   var url  = "https://www.googleapis.com/youtube/v3/search";
-  var API_KEY = "AIzaSyBb8dSD0E540p7Vf051evKb28Is81ZwZBw";
+  var API_KEY = "API_KEY";
   var options = {
   	part: "snippet",
 	key:  API_KEY,
